@@ -4261,6 +4261,7 @@ do --// UI Source
                         TextColor3 = Color3.fromRGB(0, 0, 0),
                         AutoButtonColor = false,
                         Position = UDim2.new(0, 2, 0, 0),
+                        Text = "",
                         Size = UDim2.new(1, -4, 0, 18),
                         BorderSizePixel = 0,
                         BackgroundColor3 = Library.Theme["Content"]
