@@ -1,1 +1,1 @@
-![Description of photo](https://imgur.com/a/XNRlzXy)
+![Description of photo](https://imgur.com/a/XNRlzXy.png)
