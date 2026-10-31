@@ -2771,15 +2771,15 @@ Library.Window = function(self, Data)
             Parent = Library.Holder.Instance,
             Name = "\0",
             BorderColor3 = FromRGB(0, 0, 0),
-            AnchorPoint = Vector2New(0.5, 0.5),
             BackgroundTransparency = 1,
-            Position = UDim2New(0.5, 0, 0.5, 0),
+            Position = UDim2New(0, 180, 0, -5),
             Size = UDim2New(0, 865, 0, 480),
             BorderSizePixel = 0,
             BackgroundColor3 = FromRGB(13, 17, 18)
 })
     end
 
+    Items["MainFrame"]:MakeDraggable()
     Items["MainFrame"]:MakeResizeable(Vector2New(879, 500), Vector2New(9999, 9999))
     Library:MakeBlurred(Items["MainFrame"], Window)
     Instances:Create("UICorner", {
