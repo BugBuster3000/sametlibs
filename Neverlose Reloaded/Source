@@ -19,7 +19,7 @@ local Library do
 
     local LocalPlayer = Players.LocalPlayer
     local CurrentCamera = Workspace.CurrentCamera
-    repeat task.wait() until LocalPlayer:GetMouse()
+    
     local Mouse = LocalPlayer:GetMouse()
     
     local FromRGB = Color3.fromRGB
